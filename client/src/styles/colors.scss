@@ -1,0 +1,58 @@
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+// BLACKS
+$rich-black-fogra-29: #001220;
+$gunmetal: #292f36;
+$dusty-grey: #969696;
+// WHITES
+$platinum: #ebebeb;
+$snow: #fff7f8;
+// COLORS
+$dogwood-rose: #c62368;
+$paradise-pink: #e34c67;
+$bittersweet: #fa7268;
+$lemon-yellow-crayola: #fbffb3;
+$caribbean-green: #00c79c;
+$persian-green: #00a897;
+$metallic-seaweed: #008394;
+$blue-sapphire: #006a94;
+
+$custom-colors: (
+  "dusty-grey": (
+    $dusty-grey,
+    #000
+  ),
+  "dogwood-rose": (
+    $dogwood-rose,
+    #fff,
+  ),
+  "paradise-pink": (
+    $paradise-pink,
+    #000,
+  ),
+  "bittersweet": (
+    $bittersweet,
+    #000,
+  ),
+  "lemon-yellow-crayola": (
+    $lemon-yellow-crayola,
+    #000,
+  ),
+  "caribbean-green": (
+    $caribbean-green,
+    #000,
+  ),
+  "persian-green": (
+    $persian-green,
+    #000,
+  ),
+  "metallic-seaweed": (
+    $metallic-seaweed,
+    #000,
+  ),
+  "blue-sapphire": (
+    $blue-sapphire,
+    #fff,
+  ),
+);
+@import "~bulma";

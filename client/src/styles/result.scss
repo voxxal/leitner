@@ -1,0 +1,10 @@
+@import "base";
+
+.result {
+  &.success {
+    color: green;
+  }
+  &.failure {
+    color: red;
+  }
+}
